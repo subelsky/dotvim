@@ -1,0 +1,41 @@
+snippet bef "before..end"
+before(${1::each}) do
+	${2}
+end
+endsnippet
+
+snippet con "context..end"
+context "${1}" do
+	${2:pending}
+end
+endsnippet
+
+snippet des "describe..end"
+describe "${1:subject}" do
+	${2}
+end
+endsnippet
+
+snippet it "it..end"
+it "${1}" do
+	${2:pending}
+end
+endsnippet
+
+snippet pen "pending..end"
+pending "${1}" do
+	${2}
+end
+endsnippet
+
+snippet rsh "start a spec file"
+require "spec_helper"
+
+describe ${1:subject} do
+	${2}
+end
+endsnippet
+
+snippet sop "save and open page"
+save_and_open_page
+endsnippet
