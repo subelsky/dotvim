@@ -236,9 +236,6 @@ let &t_Co=256
 set complete-=i
 let g:UltiSnipsNoPythonWarning = 1
 
-" zoomwin
-nmap <C-Z> :ZoomWin<cr>
-
 map <leader>s :%s/
 
 map <C-Left> <Esc>:tabprev<CR>
