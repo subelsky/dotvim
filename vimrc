@@ -237,7 +237,3 @@ set complete-=i
 let g:UltiSnipsNoPythonWarning = 1
 
 map <leader>s :%s/
-
-map <C-Left> <Esc>:tabprev<CR>
-map <C-Right> <Esc>:tabnext<CR>
-map <C-t> <Esc>:tabnew<CR>
