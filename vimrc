@@ -237,3 +237,5 @@ set complete-=i
 let g:UltiSnipsNoPythonWarning = 1
 
 map <leader>s :%s/
+
+let g:syntastic_ruby_exec = "/Users/subelsky/.rvm/rubies/ruby-1.9.3-p194/bin/ruby"
