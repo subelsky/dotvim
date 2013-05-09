@@ -39,6 +39,7 @@ if has("gui_gtk2")
   set guifont=Neep\ 14
 elseif has("gui_macvim")
   set guifont=Inconsolata:h18
+  set lines=60 columns=180 " make new windows full screen
 end
 
 " Enable file type detection.
