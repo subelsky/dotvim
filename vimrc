@@ -218,7 +218,7 @@ imap <D-9> <Esc>9gt
 let g:CommandTMaxHeight=20
 
 " all these files are ruby
-au BufRead,BufNewFile {Gemfile,.autotest,Guardfile,Rakefile,Vagrantfile,Thorfile,config.ru,.*.rabl} set ft=ruby
+au BufRead,BufNewFile {Gemfile,.autotest,Guardfile,Rakefile,Vagrantfile,Thorfile,config.ru,.*.rabl,*.rb.tt} set ft=ruby
 
 nnoremap <leader>a :Ack<space>
 nnoremap <leader><tab> :Scratch<cr>
