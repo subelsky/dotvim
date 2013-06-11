@@ -239,6 +239,6 @@ let g:UltiSnipsNoPythonWarning = 1
 
 map <leader>s :%smagic/
 
-let g:syntastic_ruby_exec = "/Users/subelsky/.rvm/rubies/ruby-2.0.0-p0/bin/ruby"
+let g:syntastic_ruby_exec = "/Users/subelsky/.rvm/rubies/ruby-2.0.0-p195/bin/ruby"
 
 set tabpagemax=50
