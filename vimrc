@@ -178,6 +178,7 @@ set wildignore+=*.o,*.obj,.git,vendor/**,log/**,tmp/**,oldcode/**,archive/**,cov
 nmap <leader>b :tabedit<cr>:CommandT<cr>
 nmap <leader>t :CommandT<cr>
 nmap <leader>f :CommandTFlush<cr>
+"nnoremap f :Unite -start-insert file
 nmap <leader>o :only<cr>
 
 " XML lint the current doc
