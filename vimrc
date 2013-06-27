@@ -243,3 +243,5 @@ map <leader>s :%smagic/
 let g:syntastic_ruby_exec = "/Users/subelsky/.rvm/rubies/ruby-2.0.0-p195/bin/ruby"
 
 set tabpagemax=50
+
+map <leader>y :set ft=ruby<cr>
