@@ -58,3 +58,6 @@
 [submodule "bundle/unite"]
 	path = bundle/unite
 	url = https://github.com/Shougo/unite.vim.git
+[submodule "bundle/presenting"]
+	path = bundle/presenting
+	url = https://github.com/sotte/presenting.vim.git
