@@ -173,7 +173,7 @@ set shortmess=atI " Stifle many interruptive prompts
 nnoremap ; :
 
 " speed up command-T and other listings to ignore various unimportant directories
-set wildignore+=*.o,*.obj,.git,vendor/**,log/**,tmp/**,oldcode/**,archive/**,coverage/**,*.pyc,.bundle/**,public/**,coverage/**
+set wildignore+=*.o,*.obj,.git,vendor/**,log/**,tmp/**,oldcode/**,archive/**,coverage/**,*.pyc,.bundle/**,public/**,coverage/**,doc/**
 
 nmap <leader>b :tabedit<cr>:CommandT<cr>
 nmap <leader>t :CommandT<cr>
