@@ -61,3 +61,6 @@
 [submodule "bundle/presenting"]
 	path = bundle/presenting
 	url = https://github.com/sotte/presenting.vim.git
+[submodule "bundle/vim-rspec"]
+	path = bundle/vim-rspec
+	url = https://github.com/thoughtbot/vim-rspec.git
