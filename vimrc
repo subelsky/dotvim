@@ -173,7 +173,7 @@ set shortmess=atI " Stifle many interruptive prompts
 nnoremap ; :
 
 " speed up command-T and other listings to ignore various unimportant directories
-set wildignore+=*.o,*.obj,.git,vendor/**,log/**,tmp/**,oldcode/**,archive/**,coverage/**,*.pyc,.bundle/**,public/**,coverage/**,doc/**,*.log
+set wildignore+=*.o,*.obj,.git,vendor/**,log/**,tmp/**,oldcode/**,archive/**,coverage/**,*.pyc,.bundle/**,public/**,coverage/**,doc/**,*.log,tmp/cache/*
 
 nmap <leader>b :tabedit<cr>:CommandT<cr>
 nmap <leader>t :CommandT<cr>
@@ -240,8 +240,10 @@ let g:UltiSnipsNoPythonWarning = 1
 
 map <leader>s :%smagic/
 
-let g:syntastic_ruby_exec = "/Users/subelsky/.rvm/rubies/ruby-2.0.0-p195/bin/ruby"
+let g:syntastic_ruby_exec = "/Users/subelsky/.rubies/ruby-2.0.0-p451/bin/ruby"
 
 set tabpagemax=50
 
 map <leader>y :set ft=ruby<cr>
+
+set shell=$SHELL " https://github.com/postmodern/chruby/wiki/Vim
